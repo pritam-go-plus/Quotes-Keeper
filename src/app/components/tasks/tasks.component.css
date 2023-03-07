@@ -1,0 +1,7 @@
+
+.tasks{
+  padding: 0.8rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

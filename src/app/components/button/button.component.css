@@ -1,0 +1,12 @@
+
+
+button{
+  padding: 0.5rem 1rem;font-weight: 700;
+}
+button:hover{
+  transform: scale(1.05);
+}
+
+.lime{
+  background-color: lime;
+}

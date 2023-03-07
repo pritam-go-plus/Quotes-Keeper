@@ -1,0 +1,6 @@
+<div class="task" (click)="onCompletedTaskClick(task)">
+  <h3 [ngClass]="{'completed': task.completed}">{{task.text}} 
+     <fa-icon [icon]="faTimes" class="deleteIcon" (click)="onDeleteTaskClick(task)"></fa-icon>
+    </h3>
+  <p [ngClass]="{'completed': task.completed}"> {{task.day}}</p>
+</div>
