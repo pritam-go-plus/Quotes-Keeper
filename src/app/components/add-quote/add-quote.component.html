@@ -1,0 +1,17 @@
+<form *ngIf="showAddQuote" (ngSubmit)="onSubmit()">
+
+  <div class="formControl">
+    <label for="quote_author">Author</label>
+    <input type="text" placeholder="Author" name="quote_author" [(ngModel)]="quote_author" id="quote_author" required>
+  </div>
+
+  <div class="formControl ">
+    <label for="quote_text">Quote </label>
+    <textarea name="quote_text" [(ngModel)]="quote_text" id="quote_text" placeholder="Type a Quote" required></textarea>
+  </div>
+
+  <app-button color="black" text="Save Quote">
+    <!--^1 (buttonClick)="saveTaskClick()"-->
+  </app-button>
+
+</form>

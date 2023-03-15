@@ -1,0 +1,17 @@
+<div class="addQuote">
+
+  <app-add-quote (onAddQuoteClick)="addQuote($event)"></app-add-quote>
+
+</div>
+
+<div class="quotes">
+
+  <app-quote-item *ngFor="let quote of quotes" [quote]="quote"  (deleteTaskClick)="deleteQuote($event)" (completedTaskClick)="completedQuote($event)">
+  </app-quote-item>
+
+</div>
+
+
+
+<app-footer></app-footer>
+

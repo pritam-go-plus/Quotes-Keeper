@@ -1,0 +1,8 @@
+<div class="quote">
+  <h3>{{quote.quote_author}}
+    <fa-icon [icon]="faTimes" class="deleteIcon" (click)="onDeleteTaskClick(quote,$event)"></fa-icon>
+  </h3>
+  <p
+   [ngClass]="{'completed': false}"
+  > {{quote.quote_text}}</p>
+</div>

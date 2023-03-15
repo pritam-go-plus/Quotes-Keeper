@@ -1,12 +1,28 @@
+button {
+  margin: 0.2rem ;
 
-
-button{
-  padding: 0.5rem 1rem;font-weight: 700;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  color: white;
 }
-button:hover{
+
+button:hover {
   transform: scale(1.05);
 }
 
-.lime{
-  background-color: lime;
+.green {
+  background-color: green;
+}
+
+.red {
+  background: red;
+}
+
+.black {
+  background: #000;
+  color: white;
+}
+
+.height-0 {
+  height: 0;
 }

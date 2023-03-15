@@ -1,18 +1,21 @@
 
 
-.task{
+.quote{
   background: rgba(0, 0, 0, 0.05);
   cursor: pointer;
 
   margin: 0.2rem ;
   padding:0.1rem  0.4rem;
   border-radius: 0.3rem;
-
+position: relative;
 }
-.task:hover{
+.leftBorder{
+  border-left: 6px solid yellow;
+}
+.quote:hover{
   transform: scale(1.02);
 }
-.task h3,p{
+.quote h3,p{
   margin: 0.3rem;
   display: flex;
   justify-content: space-between;
@@ -21,6 +24,8 @@
 .deleteIcon{
   padding: 0.2rem 0.5rem;
   border-radius: 0.3rem;
+position: absolute;
+top: 0;right: 0;
   display: grid;
 place-items: center;
   cursor: pointer;

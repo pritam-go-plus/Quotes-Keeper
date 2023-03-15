@@ -1,22 +1,14 @@
 {
-  "tasks": [
+  "quotes": [
     {
-      "id": 1,
-      "text": "English practice",
-      "day": "April 1th at 2:30pm",
-      "completed": false
+      "quote_author": "Pritam",
+      "quote_text": "Now",
+      "id": 1678897706722
     },
     {
-      "id": 2,
-      "text": "Online exam",
-      "day": "May 1th at 4:30pm",
-      "completed": true
-    },
-    {
-      "id": 3,
-      "text": "English practice",
-      "day": "April 1th at 2:30pm",
-      "completed": true
+      "quote_author": "Pritam",
+      "quote_text": "All is well",
+      "id": 1678897707964
     }
   ]
 }
